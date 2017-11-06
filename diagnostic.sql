@@ -1,8 +1,6 @@
 DROP DATABASE IF EXISTS "sql-diagnostic";
 CREATE DATABASE "sql-diagnostic";
 \c "sql-diagnostic"
--- put your answer to question 1 under this line
-
 \pset pager 0
 
 
@@ -10,13 +8,14 @@ CREATE DATABASE "sql-diagnostic";
 Question 1. Create a table called `licensees` to hold data in columns last_name, first_name, gender, height, weight, born_on, eye_color, hair_color.  See `data/licensees.csv` for example data.  Don't forget that all tables should have an id column as a unique identifier for a row.
 */
 
--- Your answer to question 1 should start on line 5
+-- Your answer to question 1 should start on line 12
+
 
 /*
 Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the table of licensees.
 */
 
--- Your answer to question 2 should go on line 20
+-- Your answer to question 2 should go on line 19
 
 
 /*
@@ -37,4 +36,4 @@ After completing questions 1 and 2 uncomment the code on line 25 (remove the two
 
 -- Question 5. Remove Dylan Rich and Teresita Myers from the table of licensees.
 
--- Your answers to question 5 should start on line 41
+-- Your answers to question 5 should start on line 40
