@@ -19,7 +19,7 @@ Question 2. Add `Bishop, Caren, f, 63, 132, 1943-09-26, Brown, Black` into the t
 
 
 /*
-After completing questions 1 and 2 uncomment the code on line 25 (remove the two leading dashes) and run this file with `psql --file=diagnostic.sql` to load data from `data/licensees.csv` into the `licensees` table.
+After completing questions 1 and 2 uncomment the following /copy command (remove the two leading dashes) and run this file from the terminal with `psql --file=diagnostic.sql` to load data from `data/licensees.csv` into the `licensees` table.
 */
 
 --\copy licensees(last_name,first_name,gender,height,weight,born_on,eye_color,hair_color) FROM './data/licensees.csv' WITH (FORMAT csv, HEADER true)
